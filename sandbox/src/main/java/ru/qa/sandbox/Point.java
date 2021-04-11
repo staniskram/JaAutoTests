@@ -1,17 +1,21 @@
 package ru.qa.sandbox;
 
+import java.text.Format;
+import java.text.NumberFormat;
+
 public class Point {
-  double x = 0;
-  double y = 0;
 
-  public Point(){  }
+  double xD = 0.0;
+  double yD = 0.0;
 
-  public Point(double x, double y){
-    this.x = x;
-    this.y = y;
+  public Point(){}
+
+  public Point(double xD, double yD){
+    this.xD = xD;
+    this.yD = yD;
   }
-
-  public double distance(Point p1, Point p2){
-    return Math.sqrt(Math.pow((p1.x-p2.x), 2) + Math.pow((p1.y-p2.y), 2));
+  public double distance(Point p1, Point p2) {
+      return Math.sqrt(Math.pow((p1.xD - p2.xD), 2) + Math.pow((p1.yD - p2.yD), 2));
   }
 }
+

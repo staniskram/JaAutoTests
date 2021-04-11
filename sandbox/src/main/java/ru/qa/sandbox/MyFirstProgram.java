@@ -4,11 +4,10 @@ public class MyFirstProgram {
 
 	public static void main(String[] args) {
 
-		Point pointA = new Point(2, 4);
-		Point pointB = new Point(5,7);
-
 		Point point = new Point();
-		System.out.println(point.distance(pointA, pointB));
+		Point pointAD = new Point(3.0, 5.0);
+		Point pointBD = new Point(4.0,8.0);
 
+		System.out.println(point.distance(pointAD, pointBD));
 	}
 }
