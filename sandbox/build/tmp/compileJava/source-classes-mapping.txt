@@ -1,2 +1,4 @@
-MyFirstProgram.java
- MyFirstProgram
+ru/qa/sandbox/Point.java
+ ru.qa.sandbox.Point
+ru/qa/sandbox/MyFirstProgram.java
+ ru.qa.sandbox.MyFirstProgram
