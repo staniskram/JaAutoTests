@@ -7,17 +7,15 @@ public class CoordinatesTests {
 
 @Test
   public void testDistanceDoubleValue(){
-    Point point = new Point();
-    Point pointA = new Point(2, 4);
-    Point pointB = new Point(5,7);
-    Assert.assertEquals(point.distance(pointA, pointB), 4.242640687119285);
+    Point p1 = new Point(3.0, 5.0);
+    Point p2 = new Point(5.0,8.0);
+    Assert.assertEquals(p1.distance(p2), 3.605551275463989, "incorrect calculation of distance from p1 to p2");
   }
 @Test
   public void testDistanceIntValue(){
-    Point point = new Point();
-    Point pointA = new Point(3.0, 5.0);
-    Point pointB = new Point(4.0,8.0);
-    Assert.assertEquals(point.distance(pointA, pointB), 3.1622776601683795);
+  Point p1 = new Point(7.0, 3.0);
+  Point p2 = new Point(2.0,4.0);
+    Assert.assertEquals(p1.distance(p2), 5.0990195135927845, "incorrect calculation of distance from p1 to p2");
   }
 
 }
