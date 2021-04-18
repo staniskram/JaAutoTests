@@ -1,4 +1,4 @@
-package ru.qa.sandbox;
+package ru.qa.addressbook;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

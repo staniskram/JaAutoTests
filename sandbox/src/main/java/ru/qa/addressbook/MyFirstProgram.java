@@ -1,4 +1,4 @@
-package ru.qa.sandbox;
+package ru.qa.addressbook;
 
 public class MyFirstProgram {
 
