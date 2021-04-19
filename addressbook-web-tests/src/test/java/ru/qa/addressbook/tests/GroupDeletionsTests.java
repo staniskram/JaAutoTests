@@ -6,9 +6,9 @@ public class GroupDeletionsTests extends TestBase {
 
   @Test
   public void testUntitledTestCase() {
-    app.gottoGroupPage();
-    app.selectGroup();
-    app.deleteSelectedGtoups();
-    app.returnToGroupPage();
+    app.getNavigationHelper().gottoGroupPage();
+    app.getGroupHelper().selectGroup();
+    app.getGroupHelper().deleteSelectedGtoups();
+    app.getGroupHelper().returnToGroupPage();
   }
 }
