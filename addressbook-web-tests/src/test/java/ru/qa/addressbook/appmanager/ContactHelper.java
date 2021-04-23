@@ -1,9 +1,7 @@
 package ru.qa.addressbook.appmanager;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import ru.qa.addressbook.model.ContactData;
 
 public class ContactHelper extends HelperBase{
@@ -41,7 +39,7 @@ public class ContactHelper extends HelperBase{
     click(By.linkText("home page"));
   }
   public void selectContact() {
-    click(By.xpath("//input[@value='Delete']"));
+    click(By.name("selected[]"));
   }
   public void deleteSelectionContact() {
     click(By.xpath("//input[@value='Delete']"));
