@@ -27,6 +27,7 @@ public class ContactHelper extends HelperBase{
     type(By.name("email"), contactData.getEmail());
     type(By.name("address2"), contactData.getAddress2());
     if (creation) {
+      String ck = contactData.getGroup();
       new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
     } else {
       Assert.assertFalse(isElementPresent(By.name("new_group")));
@@ -36,7 +37,7 @@ public class ContactHelper extends HelperBase{
     click(By.linkText("add new"));
   }
 
-  public void initEditContact() throws InterruptedException {
+  public void initEditContact() {
     click(By.xpath("//img[@alt='Edit']"));
   }
   public void submitContactModification() {
@@ -50,5 +51,15 @@ public class ContactHelper extends HelperBase{
   }
   public void deleteSelectionContact() {
     click(By.xpath("//input[@value='Delete']"));
+  }
+
+  public void createContact(ContactData contact, boolean b) {
+    clickByNewContact();
+    fillContactForm(contact, b);
+    initContactCreation();
+  }
+
+  public boolean isThereAContact() {
+    return elementCount(By.name("selected[]")) == 0;
   }
 }

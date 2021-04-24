@@ -2,11 +2,12 @@ package ru.qa.addressbook.tests;
 
 import org.testng.annotations.*;
 import ru.qa.addressbook.model.ContactData;
+import ru.qa.addressbook.tests.TestBase;
 
 public class ContactCreationTests extends TestBase {
 
   @Test
-  public void testContactCreationTests() {
+  public void testContactCreation() {
     app.getContactHelper().clickByNewContact();
     app.getContactHelper().fillContactForm(new ContactData("test", "testovich", "testov",
             "testtest", "MnogoTestov","Russia","88888888", "home",
