@@ -62,4 +62,8 @@ public class ContactHelper extends HelperBase{
   public boolean isThereAContact() {
     return elementCount(By.name("selected[]")) == 0;
   }
+
+  public void popUpAlertAccept() {
+    clickOkOnPopUp();
+  }
 }

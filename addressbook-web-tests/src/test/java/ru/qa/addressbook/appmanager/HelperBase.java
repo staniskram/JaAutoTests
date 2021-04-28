@@ -25,7 +25,6 @@ public class HelperBase {
       }
     }
   }
-
   protected boolean isElementPresent(By locator) {
     try {
       wd.findElement(locator);
@@ -34,7 +33,6 @@ public class HelperBase {
       return false;
     }
   }
-
   public boolean isAlertPresent() {
     try {
       wd.switchTo().alert();
@@ -43,9 +41,11 @@ public class HelperBase {
       return false;
     }
   }
-
   protected int elementCount(By element) {
     List<WebElement> listElements = wd.findElements(element);
     return listElements.size();
+  }
+  protected void clickOkOnPopUp(){
+    wd.switchTo().alert().accept();
   }
 }

@@ -2,7 +2,6 @@ package ru.qa.addressbook.tests;
 
 import org.testng.annotations.Test;
 import ru.qa.addressbook.model.ContactData;
-import ru.qa.addressbook.tests.TestBase;
 
 public class ContactDeletionTests extends TestBase {
 
@@ -15,5 +14,6 @@ public class ContactDeletionTests extends TestBase {
     }
     app.getContactHelper().selectContact();
     app.getContactHelper().deleteSelectionContact();
+    app.getContactHelper().popUpAlertAccept();
   }
 }
