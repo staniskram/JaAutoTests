@@ -1,8 +1,8 @@
 package ru.qa.addressbook.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.qa.addressbook.model.ContactData;
-import ru.qa.addressbook.tests.TestBase;
 
 public class ContactModificationTests extends TestBase {
 
