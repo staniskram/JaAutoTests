@@ -2,9 +2,14 @@ package ru.qa.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.qa.addressbook.model.ContactData;
+import ru.qa.addressbook.model.GroupData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase{
 
@@ -65,5 +70,19 @@ public class ContactHelper extends HelperBase{
 
   public void popUpAlertAccept() {
     clickOkOnPopUp();
+  }
+
+  public List<ContactData> getContactList() {
+    List<ContactData> contacts = new ArrayList<>();
+    List<WebElement> elements = wd.findElements(By.xpath("//*[@name='entry']"));
+    for (WebElement element : elements) {
+      String name = element.getText();
+      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+      ContactData contact = new ContactData("test", "testovich", "testov",
+              "testtest", "MnogoTestov","Russia","88888888", "home",
+              "test@test.test", "Russia", "test1", id);
+      contacts.add(contact);
+    }
+    return contacts;
   }
 }
