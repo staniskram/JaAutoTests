@@ -51,8 +51,8 @@ public class ContactHelper extends HelperBase{
   public void goToHomePage() {
     click(By.linkText("home page"));
   }
-  public void selectContact() {
-    click(By.name("selected[]"));
+  public void selectContact(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
   public void deleteSelectionContact() {
     click(By.xpath("//input[@value='Delete']"));
@@ -85,4 +85,9 @@ public class ContactHelper extends HelperBase{
     }
     return contacts;
   }
+
+  public void waitLoadPage() {
+      waitPage(By.name("selected[]"));
+  }
+
 }

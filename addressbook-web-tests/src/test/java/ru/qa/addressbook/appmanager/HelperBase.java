@@ -1,6 +1,9 @@
 package ru.qa.addressbook.appmanager;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 
 public class HelperBase {
@@ -48,4 +51,10 @@ public class HelperBase {
   protected void clickOkOnPopUp(){
     wd.switchTo().alert().accept();
   }
+
+  protected void waitPage(By locator) {
+    WebDriverWait wait = new WebDriverWait(wd, 10); // seconds
+    wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+  }
+
 }
