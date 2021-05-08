@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
+import ru.qa.addressbook.model.GroupData;
+
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -40,13 +42,14 @@ public class ApplicationManager {
   public void stop() {
     wd.quit();
   }
-  public GroupHelper getGroupHelper() {
+  public GroupHelper group() {
     return groupHelper;
   }
-  public NavigationHelper getNavigationHelper() {
+  public NavigationHelper goTo() {
     return navigationHelper;
   }
   public ContactHelper getContactHelper() {
     return contactHelper;
   }
+
 }

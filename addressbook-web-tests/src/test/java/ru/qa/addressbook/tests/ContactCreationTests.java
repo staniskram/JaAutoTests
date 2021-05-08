@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ContactCreationTests extends TestBase {
 
-  @Test
+  @Test(enabled = false)
   public void testContactCreation() {
     List<ContactData> before = app.getContactHelper().getContactList();
     app.getContactHelper().clickByNewContact();
@@ -17,7 +17,7 @@ public class ContactCreationTests extends TestBase {
             "test@test.test", "Russia", "test1");
     app.getContactHelper().fillContactForm(contact, true);
     app.getContactHelper().initContactCreation();
-    app.getNavigationHelper().goToHomePage();
+    app.goTo().goToHomePage();
     List<ContactData> after = app.getContactHelper().getContactList();
 
     before.add(contact);
