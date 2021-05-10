@@ -15,7 +15,11 @@ public class ContactData {
   private String address2;
   private String group;
   private int id = Integer.MAX_VALUE;
+  private String mainData;
 
+  public int getId() {
+    return id;
+  }
   public String getFirstname() {
     return firstname;
   }
@@ -98,18 +102,11 @@ public class ContactData {
     this.id = id;
     return this;
   }
-
-  @Override
-  public String toString() {
-    return "ContactData{" +
-            "firstname='" + firstname + '\'' +
-            ", middlename='" + middlename + '\'' +
-            ", lastname='" + lastname + '\'' +
-            ", nickname='" + nickname + '\'' +
-            ", company='" + company + '\'' +
-            '}';
+  public ContactData withMainData(String mainData) {
+    this.mainData = mainData;
+    return this;
   }
-
+  
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
@@ -123,7 +120,15 @@ public class ContactData {
     return Objects.hash(firstname, middlename, lastname, nickname, company);
   }
 
-  public int getId() {
-    return id;
+  @Override
+  public String toString() {
+    return "ContactData{" +
+            "firstname='" + firstname + '\'' +
+            ", middlename='" + middlename + '\'' +
+            ", lastname='" + lastname + '\'' +
+            ", nickname='" + nickname + '\'' +
+            ", company='" + company + '\'' +
+            '}';
   }
+
 }

@@ -6,8 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.qa.addressbook.model.ContactData;
-import java.util.ArrayList;
+import ru.qa.addressbook.model.Contacts;
+import ru.qa.addressbook.model.GroupData;
+
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -15,9 +19,6 @@ public class ContactHelper extends HelperBase {
     super(wd);
   }
 
-//  public void initContactCreation() {
-//    click(By.xpath("//div[@id='content']/form/label[23]"));
-//  }
   public void initContactCreation() {
     click(By.xpath("//*[@value='Enter']"));
   }
@@ -78,8 +79,18 @@ public class ContactHelper extends HelperBase {
     clickOkOnPopUp();
   }
 
-  public List<ContactData> list() {
-    List<ContactData> contacts = new ArrayList<>();
+  public Contacts all() {
+    Contacts contacts = new Contacts();
+    List<WebElement> elements = wd.findElements(By.xpath("//*[@name='entry']"));
+    for (WebElement element : elements) {
+      String mainData = element.getText();
+      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+      contacts.add(new ContactData().withId(id).withMainData(mainData));
+    }
+    return contacts;
+  }
+  public Contacts allOld() {
+    Contacts contacts = new Contacts();
     List<WebElement> elements = wd.findElements(By.xpath("//*[@name='entry']"));
     for (WebElement element : elements) {
       String name = element.getText();
@@ -110,11 +121,14 @@ public class ContactHelper extends HelperBase {
     goToHomePage();
   }
 
-  public void delete(int index) {
-    selectContact(index);
+  public void delete(ContactData contact) {
+    selectContactById(contact.getId());
     deleteSelectionContact();
     popUpAlertAccept();
     waitLoadPage();
   }
 
+  private void selectContactById(int id) {
+    wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
+  }
 }
