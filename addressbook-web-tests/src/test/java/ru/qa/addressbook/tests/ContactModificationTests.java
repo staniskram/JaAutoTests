@@ -1,6 +1,7 @@
 package ru.qa.addressbook.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.qa.addressbook.model.ContactData;
 import java.util.Comparator;
@@ -8,22 +9,23 @@ import java.util.List;
 
 public class ContactModificationTests extends TestBase {
 
-  @Test(enabled = false)
-  public void testContactModification() {
-    if (app.getContactHelper().isThereAContact()){
-      app.getContactHelper().createContact(new ContactData(
-              "test", "testovich", "testov", "testtest", "MnogoTestov",
-              "Russia","88888888", "home", "test@test.test", "Russia", null), true);
+  @BeforeMethod
+  private void ensurePreconditions() {
+    if (app.contact().list().size() == 0){
+      app.contact().create(new ContactData().withFirstname("test").withMiddlename("testovich").withLastname("testov")
+              .withNickname("testtest").withCompany("MnogoTestov").withAddress("Russia").withMobile("88888888")
+              .withWork("home").withEmail("test@test.test").withAddress2("Russia").withGroup("test1"), true);
     }
-    List<ContactData> before = app.getContactHelper().getContactList();
-    ContactData contact = new ContactData("test", "testovich", "testov",
-            "testtest", "MnogoTestov","Russia","88888888", "home",
-            "test@test.test", "Russia", "test1");
-    app.getContactHelper().initEditContact();
-    app.getContactHelper().fillContactForm(contact, false);
-    app.getContactHelper().submitContactModification();
-    app.getContactHelper().goToHomePage();
-    List<ContactData> after = app.getContactHelper().getContactList();
+  }
+
+  @Test
+  public void testContactModification() {
+    List<ContactData> before = app.contact().list();
+    ContactData contact = new ContactData().withFirstname("test").withMiddlename("testovich").withLastname("testov")
+            .withNickname("testtest").withCompany("MnogoTestov").withAddress("Russia").withMobile("88888888")
+            .withWork("home").withEmail("test@test.test").withAddress2("Russia").withGroup("test1");
+    app.contact().modify(contact);
+    List<ContactData> after = app.contact().list();
     Assert.assertEquals(after.size(), before.size());
 
     before.remove(before.size() -1);

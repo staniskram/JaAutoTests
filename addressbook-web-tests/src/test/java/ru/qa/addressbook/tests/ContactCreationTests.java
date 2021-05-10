@@ -8,22 +8,21 @@ import java.util.List;
 
 public class ContactCreationTests extends TestBase {
 
-  @Test(enabled = false)
+  @Test
   public void testContactCreation() {
-    List<ContactData> before = app.getContactHelper().getContactList();
-    app.getContactHelper().clickByNewContact();
-    ContactData contact = new ContactData("test", "testovich", "testov",
-            "testtest", "MnogoTestov","Russia","88888888", "home",
-            "test@test.test", "Russia", "test1");
-    app.getContactHelper().fillContactForm(contact, true);
-    app.getContactHelper().initContactCreation();
-    app.goTo().goToHomePage();
-    List<ContactData> after = app.getContactHelper().getContactList();
+    List<ContactData> before = app.contact().list();
 
+    ContactData contact = new ContactData().withFirstname("test").withMiddlename("testovich").withLastname("testov")
+            .withNickname("testtest").withCompany("MnogoTestov").withAddress("Russia").withMobile("88888888")
+            .withWork("home").withEmail("test@test.test").withAddress2("Russia").withGroup("test1");
+    app.contact().create(contact);
+
+    List<ContactData> after = app.contact().list();
     before.add(contact);
     Comparator<? super ContactData> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
     before.sort(byId);
     after.sort(byId);
     Assert.assertEquals(before, after);
   }
+
 }
