@@ -106,18 +106,18 @@ public class ContactData {
     this.mainData = mainData;
     return this;
   }
-  
+
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     ContactData that = (ContactData) o;
-    return Objects.equals(firstname, that.firstname) && Objects.equals(middlename, that.middlename) && Objects.equals(lastname, that.lastname) && Objects.equals(nickname, that.nickname) && Objects.equals(company, that.company);
+    return id == that.id && Objects.equals(firstname, that.firstname) && Objects.equals(middlename, that.middlename) && Objects.equals(lastname, that.lastname) && Objects.equals(nickname, that.nickname) && Objects.equals(company, that.company) && Objects.equals(group, that.group);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(firstname, middlename, lastname, nickname, company);
+    return Objects.hash(firstname, middlename, lastname, nickname, company, group, id);
   }
 
   @Override
@@ -128,6 +128,8 @@ public class ContactData {
             ", lastname='" + lastname + '\'' +
             ", nickname='" + nickname + '\'' +
             ", company='" + company + '\'' +
+            ", group='" + group + '\'' +
+            ", id=" + id +
             '}';
   }
 

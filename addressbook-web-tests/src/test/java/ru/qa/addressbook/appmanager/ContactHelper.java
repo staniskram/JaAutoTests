@@ -7,11 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.qa.addressbook.model.ContactData;
 import ru.qa.addressbook.model.Contacts;
-import ru.qa.addressbook.model.GroupData;
-
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
