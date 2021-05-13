@@ -75,26 +75,16 @@ public class ContactHelper extends HelperBase {
     clickOkOnPopUp();
   }
 
+
   public Contacts all() {
     Contacts contacts = new Contacts();
-    List<WebElement> elements = wd.findElements(By.xpath("//*[@name='entry']"));
-    for (WebElement element : elements) {
-      String mainData = element.getText();
-      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      contacts.add(new ContactData().withId(id).withMainData(mainData));
-    }
-    return contacts;
-  }
-  public Contacts allOld() {
-    Contacts contacts = new Contacts();
-    List<WebElement> elements = wd.findElements(By.xpath("//*[@name='entry']"));
-    for (WebElement element : elements) {
-      String name = element.getText();
-      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      ContactData contact = new ContactData().withFirstname("test").withMiddlename("testovich").withLastname("testov")
-              .withNickname("testtest").withCompany("MnogoTestov").withAddress("Russia").withMobile("88888888")
-              .withWork("home").withEmail("test@test.test").withAddress2("Russia").withGroup("test1").withId(id);
-      contacts.add(contact);
+    List <WebElement> rows = wd.findElements(By.name("entry"));
+    for (WebElement row : rows) {
+      List<WebElement> cells = row.findElements(By.tagName("td"));
+      int id = Integer.parseInt(row.findElement(By.xpath(".//td/input")).getAttribute("value"));
+      String firstname = row.findElement(By.xpath(".//td[3]")).getText();
+      String lastname = row.findElement(By.xpath(".//td[2]")).getText();
+      contacts.add(new ContactData().withId(id).withFirstname(firstname).withLastname(lastname));
     }
     return contacts;
   }

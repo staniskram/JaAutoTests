@@ -102,7 +102,7 @@ public class ContactData {
     this.id = id;
     return this;
   }
-  public ContactData withMainData(String mainData) {
+  public ContactData withMainData(String mainData) {  //ToDo try
     this.mainData = mainData;
     return this;
   }
@@ -112,23 +112,19 @@ public class ContactData {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     ContactData that = (ContactData) o;
-    return id == that.id && Objects.equals(firstname, that.firstname) && Objects.equals(middlename, that.middlename) && Objects.equals(lastname, that.lastname) && Objects.equals(nickname, that.nickname) && Objects.equals(company, that.company) && Objects.equals(group, that.group);
+    return id == that.id && Objects.equals(firstname, that.firstname) && Objects.equals(lastname, that.lastname);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(firstname, middlename, lastname, nickname, company, group, id);
+    return Objects.hash(firstname, lastname, id);
   }
 
   @Override
   public String toString() {
     return "ContactData{" +
             "firstname='" + firstname + '\'' +
-            ", middlename='" + middlename + '\'' +
             ", lastname='" + lastname + '\'' +
-            ", nickname='" + nickname + '\'' +
-            ", company='" + company + '\'' +
-            ", group='" + group + '\'' +
             ", id=" + id +
             '}';
   }
