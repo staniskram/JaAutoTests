@@ -1,6 +1,5 @@
 package ru.qa.addressbook.tests;
 
-import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.qa.addressbook.model.GroupData;
 import ru.qa.addressbook.model.Groups;
@@ -22,8 +21,8 @@ public class GroupDeletionsTests extends TestBase {
     Groups before = app.group().all();
     GroupData deleteGroup = before.iterator().next();
     app.group().delete(deleteGroup);
+    assertThat(app.group().count(), equalTo(before.size() - 1));
     Groups after = app.group().all();
-    Assert.assertEquals(after.size(),  before.size() - 1);
     assertThat(after, equalTo(before.without(deleteGroup)));
   }
 }
