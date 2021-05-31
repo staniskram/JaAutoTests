@@ -128,11 +128,6 @@ public class ContactData {
     return this;
   }
 
-  public ContactData withWork(String work) {
-    this.work = work;
-    return this;
-  }
-
   public ContactData withEmail(String email) {
     this.email = email;
     return this;

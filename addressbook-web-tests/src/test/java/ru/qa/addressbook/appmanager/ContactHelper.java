@@ -76,7 +76,7 @@ public class ContactHelper extends HelperBase {
   public void popUpAlertAccept() {
     clickOkOnPopUp();
   }
-  
+
     public Contacts all() {
     if (contactCash != null){
       return new Contacts(contactCash);
@@ -86,8 +86,8 @@ public class ContactHelper extends HelperBase {
     for (WebElement row : rows) {
       List<WebElement> cells = row.findElements(By.tagName("td"));
       int id = Integer.parseInt(cells.get(0).findElement(By.tagName("input")).getAttribute("value"));
-      String firstname = cells.get(1).getText();
-      String lastname = cells.get(2).getText();
+      String lastname = cells.get(1).getText();
+      String firstname = cells.get(2).getText();
       String allPhones =  cells.get(5).getText();
       contactCash.add(new ContactData().withId(id).withFirstname(firstname).withLastname(lastname)
               .withAllPhones(allPhones));

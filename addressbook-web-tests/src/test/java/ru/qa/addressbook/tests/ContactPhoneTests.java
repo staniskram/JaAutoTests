@@ -5,7 +5,6 @@ import ru.qa.addressbook.model.ContactData;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
