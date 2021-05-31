@@ -113,8 +113,15 @@ public class ContactHelper extends HelperBase {
     contactCash = null;
     waitLoadPage();
   }
-  public void modify(ContactData contact) {
+  public void modifyFirst(ContactData contact) {
     initEditContact();
+    fillContactForm(contact, false);
+    submitContactModification();
+    contactCash = null;
+    goToHomePage();
+  }
+  public void modifyById(ContactData contact) {
+    initContactModificationById(contact.getId());
     fillContactForm(contact, false);
     submitContactModification();
     contactCash = null;
@@ -126,7 +133,7 @@ public class ContactHelper extends HelperBase {
   }
 
   public ContactData infoFromEditForm(ContactData contact) {
-    initContactModoficationById(contact.getId());
+    initContactModificationById(contact.getId());
     String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
     String lastname = wd.findElement(By.name("lastname")).getAttribute("value");
     String home = wd.findElement(By.name("home")).getAttribute("value");
@@ -137,7 +144,7 @@ public class ContactHelper extends HelperBase {
             .withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work);
   }
 
-  public void initContactModoficationById(int id) {
+  public void initContactModificationById(int id) {
     WebElement checkbox = wd.findElement(By.cssSelector(String.format("input[value='%s']", id)));
     WebElement row = checkbox.findElement(By.xpath("./../.."));
     List<WebElement> cells = row.findElements(By.tagName("td"));
