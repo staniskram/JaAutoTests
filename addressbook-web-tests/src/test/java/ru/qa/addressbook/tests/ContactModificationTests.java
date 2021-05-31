@@ -27,6 +27,7 @@ public class ContactModificationTests extends TestBase {
             .withFirstname("test").withMiddlename("testovich").withLastname("testov").withNickname("testtest")
             .withCompany("MnogoTestov").withAddress("Russia").withWorkPhone("88888888")
             .withEmail("test@test.test").withAddress2("Russia").withGroup("test1");
+   // ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
     app.contact().modify(contact);
     assertThat(app.group().count(), CoreMatchers.equalTo(before.size()));
     Contacts after = app.contact().all();

@@ -2,7 +2,6 @@ package ru.qa.addressbook.tests;
 
 import org.testng.annotations.Test;
 import ru.qa.addressbook.model.ContactData;
-
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -13,8 +12,7 @@ public class ContactPhoneTests extends TestBase {
   public void testContactPhones() {
     app.goTo().goToHomePage();
     ContactData contact = app.contact().all().iterator().next();
-    ContactData contactInfoFromEditForm = app.contact().infoFrommEditForm(contact);
-
+    ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
     assertThat(contact.getAllPhones(), equalTo(mergePhone(contactInfoFromEditForm)));
   }
 
