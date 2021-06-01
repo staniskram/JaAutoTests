@@ -1,0 +1,38 @@
+[
+  {
+    "firstname": "test 0",
+    "middlename": "testovich 0",
+    "lastname": "testov 0",
+    "nickname": "testtest 0",
+    "company": "MnogoTestov 0",
+    "address": "Russia 0",
+    "workPhone": "88888888 0",
+    "email": "test@test.test 0",
+    "address2": "Russia 0",
+    "group": "test1 0"
+  },
+  {
+    "firstname": "test 1",
+    "middlename": "testovich 1",
+    "lastname": "testov 1",
+    "nickname": "testtest 1",
+    "company": "MnogoTestov 1",
+    "address": "Russia 1",
+    "workPhone": "88888888 1",
+    "email": "test@test.test 1",
+    "address2": "Russia 1",
+    "group": "test1 1"
+  },
+  {
+    "firstname": "test 2",
+    "middlename": "testovich 2",
+    "lastname": "testov 2",
+    "nickname": "testtest 2",
+    "company": "MnogoTestov 2",
+    "address": "Russia 2",
+    "workPhone": "88888888 2",
+    "email": "test@test.test 2",
+    "address2": "Russia 2",
+    "group": "test1 2"
+  }
+]
