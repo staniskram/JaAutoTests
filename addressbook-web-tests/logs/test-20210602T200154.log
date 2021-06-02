@@ -1,0 +1,8 @@
+3428 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testBadGroupCreation with parametrs []
+11338 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testBadGroupCreation
+11403 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation with parametrs [GroupData{name='test 0', id='2147483647'}]
+16620 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation
+16621 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation with parametrs [GroupData{name='test 1', id='2147483647'}]
+21394 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation
+21395 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation with parametrs [GroupData{name='test 2', id='2147483647'}]
+25960 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testGroupCreation

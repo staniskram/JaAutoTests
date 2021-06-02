@@ -6,12 +6,10 @@ import com.thoughtworks.xstream.XStream;
 import org.testng.annotations.*;
 import ru.qa.addressbook.model.GroupData;
 import ru.qa.addressbook.model.Groups;
-
 import java.io.*;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
 
