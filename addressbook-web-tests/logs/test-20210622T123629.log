@@ -1,0 +1,1067 @@
+147  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+166  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+168  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+171  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+187  [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.2.Final
+188  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+354  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+360  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+364  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+538  [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+548  [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+549  [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+565  [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+599  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@38ba6ce3
+599  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@38ba6ce3
+600  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@38ba6ce3
+600  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4e423aa2
+601  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3148f668
+601  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@436c81a3
+602  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@609db546
+602  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@609db546
+602  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@609db546
+603  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@341814d3
+603  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@341814d3
+603  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@341814d3
+604  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@119cbf96
+604  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@119cbf96
+604  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@119cbf96
+605  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@455b6df1
+605  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@455b6df1
+606  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@455b6df1
+606  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@14bee915
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@14bee915
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@14bee915
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@43b9fd5
+608  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@43b9fd5
+608  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@43b9fd5
+608  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@74a6f9c1
+608  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@74a6f9c1
+609  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@74a6f9c1
+609  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2d778add
+609  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2d778add
+610  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@f107c50
+610  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@f107c50
+611  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@60410cd
+611  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@60410cd
+612  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@38604b81
+612  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@babafc2
+613  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@69f1a286
+613  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@69f1a286
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@3f57bcad
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3f57bcad
+621  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@36cda2c2
+621  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@36cda2c2
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@481ba2cf
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@481ba2cf
+624  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7d446ed1
+624  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7d446ed1
+625  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1b75c2e3
+625  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1b75c2e3
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4ff8d125
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4ff8d125
+627  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@327bcebd
+627  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@327bcebd
+630  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7a220c9a
+630  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7a220c9a
+632  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@172b013
+632  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@172b013
+633  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@70f02c32
+633  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@70f02c32
+634  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@5b6ec132
+635  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5b6ec132
+635  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5b6ec132
+636  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2c78d320
+637  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@6cc558c6
+637  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6cc558c6
+637  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6cc558c6
+638  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@26ceffa8
+639  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@60129b9a
+640  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@27216cd
+640  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@27216cd
+641  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@6c2c1385
+641  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6c2c1385
+642  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@146dfe6
+642  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@146dfe6
+643  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@6af9fcb2
+643  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6af9fcb2
+644  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1046d517
+644  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1046d517
+645  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5505ae1a
+646  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@60df60da
+646  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@60df60da
+646  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@60df60da
+647  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@632ceb35
+647  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@632ceb35
+647  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@632ceb35
+648  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@130e116b
+648  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@363a52f
+649  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5f9be66c
+649  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5f9be66c
+649  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5f9be66c
+650  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6ccdb29f
+650  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6ccdb29f
+650  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6ccdb29f
+651  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@7b420819
+651  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@a3d9978
+653  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@56928307
+653  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@56928307
+653  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@9ebe38b
+654  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3cdf2c61
+655  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3cdf2c61
+656  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@39de3d36
+656  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@39de3d36
+656  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3fed2870
+656  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@32c4e8b2
+657  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@4f5991f6
+660  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@545b995e
+660  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@545b995e
+660  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@41e68d87
+660  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@49ff7d8c
+660  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@29526c05
+661  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2ef14fe
+661  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@77102b91
+661  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@45312be2
+661  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7fb95505
+661  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@58be6e8
+699  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+700  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+700  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+700  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+701  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+702  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+702  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+703  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+703  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+704  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+704  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+705  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+705  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+705  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+709  [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+714  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook]
+714  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+714  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+716  [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+716  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+848  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.17-MariaDB
+      major : 5
+      minor : 5
+848  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+      major : 8
+      minor : 0
+848  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+858  [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+871  [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+871  [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+883  [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+886  [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@a8c1f44] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@150ab4ed]
+931  [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.qa.addressbook.model.GroupData
+957  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+962  [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+964  [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.qa.addressbook.model.GroupData on table group_list
+982  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+984  [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.qa.addressbook.model.GroupData] is safe
+985  [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.qa.addressbook.model.GroupData
+985  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+986  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.qa.addressbook.model.GroupData:id]
+988  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+989  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+992  [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+992  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+993  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+993  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.qa.addressbook.model.GroupData:footer]
+993  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+993  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+994  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+994  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+994  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.qa.addressbook.model.GroupData:header]
+994  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+994  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+994  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+994  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+994  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.qa.addressbook.model.GroupData:name]
+994  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+995  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+996  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+996  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+996  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+996  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+998  [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+1025 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+1025 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+1025 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+1026 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+1026 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+1026 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+1026 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+1026 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+1026 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+1026 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+1026 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+1027 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+1027 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+1027 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+1027 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+1027 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+1027 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+1078 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+1078 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+1095 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+1096 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQLDialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\testng\lib\testng-rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;D:\IDEA_project\JaAutoTests\addressbook-web-tests\out\test\classes;D:\IDEA_project\JaAutoTests\addressbook-web-tests\out\test\resources;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.4.0\b6becc0a058e272473ac3ba983966ff507ca0300\testng-7.4.0.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\3.141.59\e8e20b741299cb8ffedbd2925a3ab69d08b41063\selenium-java-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest\2.2\1820c0968dba3a11a1b30669bb1f01978a91dedc\hamcrest-2.2.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.81\9ca9dd27bb28e5990ad01aec5bb2989f50b6ff3e\jcommander-1.81.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.17\646da0e0fa6c56ff2f1b81601fb8934393718217\xstream-1.4.17.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.7\69d9503ea0a40ee16f0bcdac7e3eaf83d0fa914a\gson-2.8.7.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.25\f8b9123acd13058c941aff25f308c9ed8000bb73\mysql-connector-java-8.0.25.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.5.2.Final\99296e12590f63735ad7ba300ca33135860a2fa8\hibernate-core-5.5.2.Final.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.webjars\jquery\3.5.1\2392938e374f561c27c53872bdc9b6b351b6ba34\jquery-3.5.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\3.141.59\67137314736c6a2f39a8aa59a562e9616ae5f77e\selenium-chrome-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\3.141.59\fc09c66f2d0b33b0816d770761ad1d599ef0df29\selenium-edge-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\3.141.59\a99f2fe2a42747ed9809d4f62f51a9e1b336dde8\selenium-firefox-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\3.141.59\677b9b414a3a9bb2aeea89042a7b326edeb13a82\selenium-ie-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\3.141.59\6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff\selenium-opera-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\3.141.59\a32b5b88f46ea4b0356079f0d2e2217543923046\selenium-safari-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\3.141.59\8735de5049acf0e761defc65ee5837d6541abaf5\selenium-support-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\3.141.59\1c79ca890c312ff9916bd95df4f0c5182ec722d8\selenium-remote-driver-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\3.141.59\e006ffd3aa7841e6e9125d9e6691b3a6b7592b05\selenium-api-3.141.59.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.22\ef45d7e2cd1c600d279704f492ed5ce2ceb6cdb5\byte-buddy-1.10.22.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\25.0-jre\7319c34fa5866a85b6bad445adad69d402323129\guava-25.0-jre.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\io.github.x-stream\mxparser\1.2.1\2a7e50b9831efc7785a4d276d94eadee343a4729\mxparser-1.2.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.11.4\7ec0925cc3aef0335bbc7d57edfd42b0f86f8267\protobuf-java-3.11.4.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.2.Final\e59ffdbc6ad09eeb33507b39ffcf287679a498c8\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.4.2.Final\e517b8a93dd9962ed5481345e4d262fdd47c4217\jboss-logging-3.4.2.Final.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.27.0-GA\f63e6aa899e15eca8fdaa402a79af4c417252213\javassist-3.27.0-GA.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.2.3.Final\d3865101f0666b63586683bd811d754517f331ab\jandex-2.2.3.Final.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.0.0\fc89b03860d11d6213d0154a62bcd1c2f69b9efa\checker-compat-qual-2.0.0.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\aksta\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Moscow, user.country.format=RU, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_261\jre\bin, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55207 @w@C:\Users\aksta\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\aksta\AppData\Local\Temp\idea_testng.tmp, sun.cpu.endian=little, user.home=C:\Users\aksta, user.language=en, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, java.home=C:\Program Files\Java\jdk1.8.0_261\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_261-b12, user.name=aksta, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\aksta\AppData\Local\Temp\, java.version=1.8.0_261, user.dir=D:\IDEA_project\JaAutoTests\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, user.language.format=ru, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@66b72664, java.library.path=C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\dotnet\;C:\Cygwin64\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\jmeter\bin;C:\Users\aksta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\aksta\AppData\Local\Yarn\bin;C:\Users\aksta\AppData\Roaming\npm;C:\Users\aksta\AppData\Local\GitHubDesktop\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.261-b12, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook, java.class.version=52.0}
+1109 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+1110 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+1110 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@a8c1f44] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1f2d2181]
+1171 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.qa.addressbook.model.GroupData] is safe
+1171 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.qa.addressbook.model.GroupData
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.qa.addressbook.model.GroupData
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_0_, groupdata_.group_header as group_he3_0_, groupdata_.group_name as group_na4_0_ from group_list groupdata_ where groupdata_.group_id=?
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+1370 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+1392 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e380628]
+1393 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1394 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1394 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1394 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1403 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1406 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.qa.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=ru.qa.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=ru.qa.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.qa.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_0_0_}
+
+1408 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.qa.addressbook.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_0_0_, groupdata0_.group_footer as group_fo2_0_0_, groupdata0_.group_header as group_he3_0_0_, groupdata0_.group_name as group_na4_0_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1441 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@149f5761] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+1487 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+1489 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+1493 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1493 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1494 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+1495 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+1498 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+1503 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@b8e246c
+1505 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: f3c409e5-4cdd-43c2-bd6a-3080839bd36d (<unnamed>)
+1505 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+1565 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+1570 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+1570 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+1581 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@7aead3af
+1601 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from ru.qa.addressbook.model.GroupData
+1606 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+1610 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[IDENT] Node: 'ru'
+                |  |  |  \-[IDENT] Node: 'qa'
+                |  |  \-[IDENT] Node: 'addressbook'
+                |  \-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'GroupData'
+
+1630 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+1642 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : ru.qa.addressbook.model.GroupData (<no alias>) -> groupdata0_
+1642 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+1642 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) )
+1646 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+1649 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity GroupData): [group_list]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ru.qa.addressbook.model.GroupData)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+1652 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_]
+1652 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+1652 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=ru.qa.addressbook.model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=ru.qa.addressbook.model.GroupData}}
+
+1652 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+1657 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from ru.qa.addressbook.model.GroupData
+1657 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
+1657 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+1669 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
+1682 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+1684 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#70]
+1697 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+1697 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#71]
+1697 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+1697 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#72]
+1697 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+1697 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#74]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#75]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#76]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#77]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#78]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#79]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#80]
+1698 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10
+1698 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#81]
+1699 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11
+1699 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#82]
+1699 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12
+1699 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#83]
+1699 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13
+1699 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#84]
+1699 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14
+1699 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#85]
+1699 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15
+1700 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#86]
+1700 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16
+1700 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#87]
+1700 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17
+1700 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#89]
+1700 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18
+1700 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#90]
+1700 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19
+1700 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#91]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#92]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#93]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#94]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#95]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#96]
+1701 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25
+1701 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#97]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#98]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#99]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#100]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#101]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#102]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#103]
+1702 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32
+1702 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#104]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 33
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#105]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 34
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#106]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 35
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#107]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 36
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#108]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 37
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#109]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 38
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#110]
+1703 [main] DEBUG org.hibernate.loader.Loader - Result set row: 39
+1703 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#111]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 40
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#112]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 41
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#113]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 42
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#114]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 43
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#115]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 44
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#116]
+1704 [main] DEBUG org.hibernate.loader.Loader - Result set row: 45
+1704 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#117]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 46
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#118]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 47
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#119]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 48
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#120]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 49
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#121]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 50
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#122]
+1705 [main] DEBUG org.hibernate.loader.Loader - Result set row: 51
+1705 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#123]
+1706 [main] DEBUG org.hibernate.loader.Loader - Result set row: 52
+1706 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#124]
+1706 [main] DEBUG org.hibernate.loader.Loader - Result set row: 53
+1706 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#125]
+1706 [main] DEBUG org.hibernate.loader.Loader - Result set row: 54
+1706 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#126]
+1706 [main] DEBUG org.hibernate.loader.Loader - Result set row: 55
+1706 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#127]
+1706 [main] DEBUG org.hibernate.loader.Loader - Result set row: 56
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#128]
+1707 [main] DEBUG org.hibernate.loader.Loader - Result set row: 57
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#129]
+1707 [main] DEBUG org.hibernate.loader.Loader - Result set row: 58
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#130]
+1707 [main] DEBUG org.hibernate.loader.Loader - Result set row: 59
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#131]
+1707 [main] DEBUG org.hibernate.loader.Loader - Result set row: 60
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#132]
+1707 [main] DEBUG org.hibernate.loader.Loader - Result set row: 61
+1707 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#133]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 62
+1708 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#134]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 63
+1708 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#135]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 64
+1708 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#136]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 65
+1708 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#137]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 66
+1708 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#138]
+1708 [main] DEBUG org.hibernate.loader.Loader - Result set row: 67
+1709 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#139]
+1709 [main] DEBUG org.hibernate.loader.Loader - Result set row: 68
+1709 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#140]
+1709 [main] DEBUG org.hibernate.loader.Loader - Result set row: 69
+1709 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#141]
+1709 [main] DEBUG org.hibernate.loader.Loader - Result set row: 70
+1709 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.qa.addressbook.model.GroupData#142]
+1711 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#70]
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1712 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#70]
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#71]
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1713 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#71]
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#72]
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test3
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test2
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#72]
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#74]
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1714 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#74]
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#75]
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#75]
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#76]
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer3
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header3
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test3
+1715 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#76]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#77]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer1
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header1
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#77]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#78]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer2
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header2
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#78]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#79]
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer3
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header3
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test3
+1716 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#79]
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#80]
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#80]
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#81]
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1717 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#81]
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#82]
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#82]
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#83]
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1718 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#83]
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#84]
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#84]
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#85]
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1719 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#85]
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#86]
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = test3
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = test2
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#86]
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#87]
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1720 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#87]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#89]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 0
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#89]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#90]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#90]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#91]
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1721 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#91]
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#92]
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#92]
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#93]
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#93]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#94]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#94]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#95]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#95]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#96]
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+1724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 1
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#96]
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#97]
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = 
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = 
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 2
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#97]
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#98]
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#98]
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#99]
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#99]
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#100]
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#100]
+1726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#101]
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#101]
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#102]
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#102]
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#103]
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1727 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#103]
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#104]
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#104]
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#105]
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#105]
+1728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#106]
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#106]
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#107]
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#107]
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#108]
+1729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#108]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#109]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#109]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#110]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#110]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#111]
+1730 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#111]
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#112]
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#112]
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#113]
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1731 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#113]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#114]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#114]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#115]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#115]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#116]
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1732 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#116]
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#117]
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1733 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#117]
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#118]
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#118]
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#119]
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1734 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#119]
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#120]
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1735 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#120]
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#121]
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#121]
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#122]
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1736 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#122]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#123]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#123]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#124]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#124]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#125]
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1737 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#125]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#126]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#126]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#127]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#127]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#128]
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1738 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#128]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#129]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#129]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#130]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#130]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#131]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#131]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#132]
+1739 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#132]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#133]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#133]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#134]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#134]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#135]
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1740 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#135]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#136]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#136]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#137]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#137]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#138]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#138]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#139]
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1741 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#139]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#140]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 0
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 0
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 0
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#140]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#141]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 1
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 1
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 1
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#141]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.qa.addressbook.model.GroupData#142]
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = footer 2
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = header 2
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test 2
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+1742 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.qa.addressbook.model.GroupData#142]
+1747 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+1748 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+1755 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+1763 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 71 objects
+1763 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+1764 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+1764 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=, name=test1, header=, id=70}
+1764 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=76}
+1764 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer2, name=test2, header=header2, id=75}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer2, name=test2, header=header2, id=78}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer1, name=test1, header=header1, id=77}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=test3, name=test1, header=test2, id=72}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=, name=test1, header=, id=71}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer1, name=test1, header=header1, id=74}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=84}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=83}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=test3, name=test1, header=test2, id=86}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=85}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=80}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=79}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=82}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=81}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=124}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=123}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=126}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=125}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - ru.qa.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=120}
+1765 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+1768 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+1769 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

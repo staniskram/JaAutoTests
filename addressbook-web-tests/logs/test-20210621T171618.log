@@ -1,0 +1,6 @@
+3090 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation with parametrs [ContactData{firstname='test 0', lastname='testov 0', id=2147483647}]
+11414 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation
+11414 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation with parametrs [ContactData{firstname='test 1', lastname='testov 1', id=2147483647}]
+17220 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation
+17221 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation with parametrs [ContactData{firstname='test 2', lastname='testov 2', id=2147483647}]
+22707 [main] INFO  ru.qa.addressbook.tests.TestBase - Start test testContactCreation
